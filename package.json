@@ -1,0 +1,31 @@
+{
+  "name": "wagmi-project",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@base-org/account": "^2.5.0",
+    "@metamask/sdk": "^0.34.0",
+    "@rainbow-me/rainbowkit": "^2.2.9",
+    "@safe-global/safe-apps-provider": "^0.18.6",
+    "@tanstack/react-query": "latest",
+    "@walletconnect/ethereum-provider": "^2.23.0",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "viem": "latest",
+    "wagmi": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@wagmi/cli": "latest",
+    "typescript": "latest"
+  }
+}
